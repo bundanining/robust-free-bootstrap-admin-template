@@ -1,0 +1,36 @@
+// ================================================================================================
+//     File Name: Footer.scss
+//     Description: *  Main footer styles.
+//     ----------------------------------------------------------------------------------------------
+//     Item Name: Robust - Responsive Admin Theme
+//     Version: 1.2
+//     Author: PIXINVENT
+//     Author URL: http://www.themeforest.net/user/pixinvent
+// ================================================================================================
+
+// Stick footer to the bottom of the page
+footer{
+	&.footer {
+		padding: 0.4rem;
+	}
+
+	//shadow & border options
+	&.navbar-shadow {
+		box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
+	}
+	&.navbar-border {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	// Footer color options
+	&.footer-transparent{
+		border: none;
+	}
+	&.footer-light{
+		background: $footer-color-light-bg;
+	}
+	&.footer-dark{
+		background: $footer-color-dark-bg;
+		color: #fff;
+	}
+}

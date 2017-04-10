@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr" class="loading">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Robust admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, robust admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Component Documetation - Robust Admin Template</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="../app-assets/images/ico/apple-icon-60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../app-assets/images/ico/apple-icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../app-assets/images/ico/apple-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../app-assets/images/ico/apple-icon-152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="../app-assets/images/ico/favicon-32.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap.css">
+    <!-- font icons-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/pace.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN ROBUST CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/colors.css">
+    <!-- END ROBUST CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-overlay-menu.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/ui/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/documentation.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END Custom CSS-->
+  </head>
+  <body data-open="click" data-menu="vertical-menu" data-col="content-right-sidebar" class="vertical-layout vertical-menu content-right-sidebar  fixed-navbar">
+
+    <!-- - var navbarCustom = "navbar-fixed-top navbar-semi-dark navbar-shadow"-->
+    <!-- navbar-fixed-top-->
+    <nav class="header-navbar navbar navbar-with-menu navbar-fixed-top navbar-semi-dark navbar-shadow">
+      <div class="navbar-wrapper">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5 font-large-1">
+                  <div class="bs-callout-info callout-border-left mt-1 p-1">
+                  <strong>Great Job!</strong>
+                  <p>Biscuit macaroon tootsie roll croissant. Dessert candy canes halvah cookie liquorice. Candy canes muffin gummies jujubes brownie. Pie cake pie pastry sugar plum jelly apple pie cotton candy.</p></i></div></a></li>
+            <li class="nav-item"><a href="index.html" class="navbar-brand nav-link"><img alt="branding logo" src="../app-assets/images/logo/robust-logo-light.png" data-expand="../app-assets/images/logo/robust-logo-light.png" data-collapse="../app-assets/images/logo/robust-logo-small.png" class="brand-logo"></a></li>
+            <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="icon-ellipsis pe-2x fa-rotate-90"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-container content">
+          <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
+            <ul class="nav navbar-nav">
+              <li class="nav-item hidden-sm-down"><a class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="icon-menu5"></i></a></li>
+              <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="ficon icon-expand2"></i></a></li>
+            </ul>
+            <ul class="nav navbar-nav float-xs-right">
+              <li class="nav-item"><a href="#" class="btn btn-link btn-doc-header"> V 1.0</a></li>
+              <li class="nav-item"><a href="https://github.com/pixinvent/robust-free-bootstrap-admin-template/issues" target="_blank" class="btn btn-warning btn-doc-header"><i class="icon-help2"></i> Support</a></li>
+              <li class="nav-item"><a href="https://pixinvent.com/bootstrap-admin-template/robust/" target="_blank" class="btn btn-success btn-doc-header"><i class="icon-bag3"></i> Upgrade to PRO $24</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <!-- main menu-->
+    <div data-scroll-to-active="true" class="main-menu menu-fixed menu-dark menu-accordion menu-shadow">
+      <!-- main menu header-->
+      <!-- / main menu header-->
+      <!-- main menu content-->
+      <div class="main-menu-content menu-accordion">
+        <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+          <li class=" nav-item"><a href="index.html"><i class="icon-home3"></i><span data-i18n="" class="menu-title">Robust Admin</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-introduction.html"><i class="icon-android-menu"></i><span data-i18n="" class="menu-title">Introduction</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-folder-structure.html"><i class="icon-folder3"></i><span data-i18n="" class="menu-title">Folder Structure</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-styles-customization.html"><i class="icon-graphic_eq"></i><span data-i18n="" class="menu-title">Styles Customization</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-javascript-usage.html"><i class="icon-social-javascript"></i><span data-i18n="" class="menu-title">JavaScript Usage</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-html-structure.html"><i class="icon-paper"></i><span data-i18n="" class="menu-title">HTML Structure</span></a>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="icon-stack-2"></i><span data-i18n="" class="menu-title">Page Layouts</span></a>
+            <ul class="menu-content">
+              <li><a href="documentation-page-layouts.html" class="menu-item">1 Column</a>
+              </li>
+              <li><a href="documentation-2-columns.html" class="menu-item">2 Column</a>
+              </li>
+              <li><a href="documentation-fixed-layout.html" class="menu-item"> Fixed Layout</a>
+              </li>
+              <li><a href="documentation-boxed-layout.html" class="menu-item"> Boxed Layout</a>
+              </li>
+              <li><a href="documentation-static-layout.html" class="menu-item"> Static Layout</a>
+              </li>
+              <li><a href="documentation-light-layout.html" class="menu-item"> Light Layout</a>
+              </li>
+              <li><a href="documentation-dark-layout.html" class="menu-item"> Dark Layout</a>
+              </li>
+              <li><a href="documentation-semi-dark-layout.html" class="menu-item"> Semi dark Layout</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="icon-paint-format"></i><span data-i18n="" class="menu-title">Color Palette</span></a>
+            <ul class="menu-content">
+              <li><a href="documentation-color-primary.html" class="menu-item">Primary Color</a>
+              </li>
+              <li><a href="documentation-color-danger.html" class="menu-item">Danger Color</a>
+              </li>
+              <li><a href="documentation-color-success.html" class="menu-item">Success Color</a>
+              </li>
+              <li><a href="documentation-color-warning.html" class="menu-item">Warning Color</a>
+              </li>
+              <li><a href="documentation-color-info.html" class="menu-item">Info Color</a>
+              </li>
+              <li><a href="documentation-color-red.html" class="menu-item">Red Color</a>
+              </li>
+              <li><a href="documentation-color-pink.html" class="menu-item">Pink Color</a>
+              </li>
+              <li><a href="documentation-color-purple.html" class="menu-item">Purple Color</a>
+              </li>
+              <li><a href="documentation-color-deep-purple.html" class="menu-item">Deep Purple Color</a>
+              </li>
+              <li><a href="documentation-color-indigo.html" class="menu-item">Indigo Color</a>
+              </li>
+              <li><a href="documentation-color-blue.html" class="menu-item">Blue Color</a>
+              </li>
+              <li><a href="documentation-color-light-blue.html" class="menu-item">Light Blue Color</a>
+              </li>
+              <li><a href="documentation-color-cyan.html" class="menu-item">Cyan Color</a>
+              </li>
+              <li><a href="documentation-color-teal.html" class="menu-item">Teal Color</a>
+              </li>
+              <li><a href="documentation-color-green.html" class="menu-item">Green Color</a>
+              </li>
+              <li><a href="documentation-color-lime.html" class="menu-item">Lime Color</a>
+              </li>
+              <li><a href="documentation-color-yellow.html" class="menu-item">Yellow Color</a>
+              </li>
+              <li><a href="documentation-color-amber.html" class="menu-item">Amber Color</a>
+              </li>
+              <li><a href="documentation-color-orange.html" class="menu-item">Orange Color</a>
+              </li>
+              <li><a href="documentation-color-deep-orange.html" class="menu-item">Deep Orange Color</a>
+              </li>
+              <li><a href="documentation-color-brown.html" class="menu-item">Brown Color</a>
+              </li>
+              <li><a href="documentation-color-blue-grey.html" class="menu-item">Blue Grey Color</a>
+              </li>
+              <li><a href="documentation-color-grey.html" class="menu-item">Grey Color</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="icon-grid2"></i><span data-i18n="" class="menu-title">User Interface</span></a>
+            <ul class="menu-content">
+              <li><a href="documentation-card.html" class="menu-item">Cards</a>
+              </li>
+              <li><a href="documentation-content.html" class="menu-item">Content</a>
+              </li>
+              <li class="active"><a href="documentation-components.html" class="menu-item">Components</a>
+              </li>
+              <li><a href="documentation-icons.html" class="menu-item">Icons</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="documentation-form-layouts.html"><i class="icon-wpforms"></i><span data-i18n="" class="menu-title">Form Layouts</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-bootstrap-tables.html"><i class="icon-paper"></i><span data-i18n="" class="menu-title">Bootstrap Tables</span></a>
+          </li>
+          <li class=" nav-item"><a href="#.html"><i class="icon-stats-dots"></i><span data-i18n="" class="menu-title">Charts</span></a>
+            <ul class="menu-content">
+              <li><a href="documentation-charts-google.html" class="menu-item">Google Charts</a>
+              </li>
+              <li><a href="documentation-charts-chartjs.html" class="menu-item">Chart JS</a>
+              </li>
+              <li><a href="documentation-charts-flot.html" class="menu-item">Flot Charts</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="documentation-maps.html"><i class="icon-map22"></i><span data-i18n="" class="menu-title">Maps</span></a>
+          </li>
+          <li class=" navigation-header"><span>Other</span><i data-toggle="tooltip" data-placement="right" data-original-title="Other" class="icon-ellipsis icon-ellipsis"></i>
+          </li>
+          <li class=" nav-item"><a href="documentation-sources-credits.html"><i class="icon-codepen"></i><span data-i18n="" class="menu-title">Sources &amp; Credits</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-changelog.html"><i class="icon-copy"></i><span data-i18n="" class="menu-title">Changelog</span><span class="tag tag tag tag-info float-xs-right">1.0</span></a>
+          </li>
+          <li class=" nav-item"><a href="documentation-notes.html"><i class="icon-warning"></i><span data-i18n="" class="menu-title">Notes</span></a>
+          </li>
+          <li class=" nav-item"><a href="https://github.com/pixinvent/robust-free-bootstrap-admin-template/issues"><i class="icon-support"></i><span data-i18n="" class="menu-title">Support</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /main menu content-->
+      <!-- main menu footer-->
+      <!-- main menu footer-->
+    </div>
+    <!-- / main menu-->
+
+    <div class="app-content content container-fluid">
+      <div class="sidebar-right sidebar-sticky">
+        <div class="sidebar"><div class="pt-2 pr-2">
+    <div class="sidebar-content p-1" data-spy="affix" data-offset-top="-77">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="card-title">Components Navigation</h6>
+            </div>
+            <div class="card-body collapse in" aria-expanded="true">
+                <div class="card-block">
+                    <nav id="sidebar-page-navigation">
+                        <ul id="page-navigation-list" class="nav">
+                            <li class="nav-item"><a class="nav-link" href="#alert">Alert</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#buttons">Buttons</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#collapse">Collapse</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#dropdown">Dropdown</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#listgroup">List Group</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#modal">Modal</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pagination">Pagination</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#navs">Navs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#tabs">Tabs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pills">Pills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#tooltips">Tooltips</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#popovers">Popovers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#tags">Tags</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pill-tags">Pill tags</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#progress">Progress</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#media-object">Media Object</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h6 class="border-top-grey border-top-lighten-2 p-1 mt-1 mb-0">
+                    <a class="nav-link display-block text-muted" href="#top">Back to top
+                        <i class="float-xs-right icon-circle-up font-medium-3"></i>
+                    </a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+      <div class="content-left">
+        <div class="content-wrapper">
+          <div class="content-header row">
+            <div class="content-header-left col-md-6 col-xs-12 mb-1">
+              <h2 class="content-header-title">Component Documetation</h2>
+            </div>
+            <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
+              <div class="breadcrumb-wrapper col-xs-12">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active">Component Documetation
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="content-body"><!-- Alert -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="alert" class="card-title">Alert</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <div class="card-text">
+                <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+            </div>
+            <h6 class="text-semibold">Start using alerts with no worries!</h6>
+            <p class="content-group">Check below table to use alerts with different types and designs.</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Alert Type</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Default alert</strong></td>
+                        <td><code>.alert.alert-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to add for alert.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>No border alert</strong></td>
+                        <td><code>.alert.no-border</code></td>
+                        <td>Alerts without border working same but looks different.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Alert with links</strong></td>
+                        <td><code>.alert-link</code></td>
+                        <td>If you want to give any link to the content of the alert, this class is used.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dismissible Alerts</strong></td>
+                        <td><code>.alert-dismissible</code></td>
+                        <td>Adds extra padding to the right of the alert and positions the .close button. You can use the data-dismiss="alert" attribute also.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Link</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/alerts/" target="_blank">http://v4-alpha.getbootstrap.com/components/alerts/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-alerts.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-alerts.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Alert -->
+
+<!-- Buttons -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="buttons" class="card-title">Buttons</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Buttons include support for a handful of contextual variations, sizes, states, and more. Group a series of buttons together on a single line with the button group.</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Buttons options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic button</strong></td>
+                        <td><code>.btn.btn-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to use for button.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Button group</strong></td>
+                        <td><code>.btn-group</code></td>
+                        <td>Group a series of buttons together on a single line with the button group.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Button Size</strong></td>
+                        <td><code>.btn-[lg/sm]</code></td>
+                        <td>For fancy larger or smaller buttons size.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Button block</strong></td>
+                        <td><code>.btn-block</code></td>
+                        <td>Create block level buttons—those that span the full width of a parent.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Outline button</strong></td>
+                        <td><code>.btn-outline-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to use for outline button.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vertical button group</strong></td>
+                        <td><code>.btn-group-vertical</code></td>
+                        <td>To create vertical button group.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Buttons</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/buttons/" target="_blank">http://v4-alpha.getbootstrap.com/components/buttons/</a></td>
+                    </tr>
+                     <tr>
+                        <td><strong>Button Groups</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/button-group/" target="_blank">http://v4-alpha.getbootstrap.com/components/button-group/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-buttons-basic.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-buttons-basic.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Buttons -->
+
+<!-- Carousel -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="carousel" class="card-title">Carousel</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">A slideshow component for cycling through elements—images or slides of text—like a carousel. In browsers where the Page Visibility API is supported, the carousel will avoid sliding when the webpage is not visible to the user (such as when the browser tab is inactive, the browser window is minimized, etc.).</p>
+            <p><strong>Nested carousels are not supported.</strong></p>
+            <p>Below have options that you can use with carousel :</p>
+            <ul>
+                <li>Carousel with caption</li>
+                <li>Interval Options</li>
+                <li>Disable on hover Pause, etc...</li>
+            </ul>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/carousel/" target="_blank">http://v4-alpha.getbootstrap.com/components/carousel/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-carousel.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-carousel.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Carousel -->
+
+<!-- Collapse -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="collapse" class="card-title">Collapse</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">The Bootstrap collapse plugin allows you to toggle content on your pages with a few classes thanks to some helpful JavaScript.</p>
+            <p>You can use a link with the <code>href</code> attribute, or a button with the <code>data-target</code> attribute.</p> 
+            <p><strong>In all cases, the <code>data-toggle="collapse"</code> is required.</strong></p>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/collapse/" target="_blank">http://v4-alpha.getbootstrap.com/components/collapse/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-collapse.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-collapse.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Collapse -->
+
+<!-- Dropdown -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="dropdown" class="card-title">Dropdown</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin.</p>
+            <h6>Example Code:</h6>
+            <pre class="language-HTML">
+                <code class="language-HTML">
+                    &lt;div class="dropdown open"&gt;
+                        &lt;a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                            Dropdown link
+                        &lt;/a&gt;
+
+                        &lt;div class="dropdown-menu" aria-labelledby="dropdownMenuLink"&gt;
+                            &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+                            &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+                            &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Dropdown Options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Active State</strong></td>
+                        <td><code>.active</code></td>
+                        <td>Dropdown Button's selected/active state.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dropdown Sizes</strong></td>
+                        <td><code>.dropdown-menu-[xl/lg/sm]</code></td>
+                        <td>Different dropdown sizes.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/dropdowns/" target="_blank">http://v4-alpha.getbootstrap.com/components/dropdowns/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-dropdowns.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-dropdowns.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Dropdown -->
+
+<!-- List Group -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="listgroup" class="card-title">List Group</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">List groups are a flexible and powerful component for displaying not only simple lists of elements, but complex ones with custom content.</p>
+            <p>The most basic list group is simply an unordered list with list items, and the proper classes. Build upon it with the options that follow, or your own CSS as needed.</p>
+            <h6>Example Code:</h6>
+            <pre class="language-HTML">
+                <code class="language-HTML">
+                    &lt;ul class="list-group"&gt;
+                        &lt;li class="list-group-item"&gt;Cras justo odio&lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;Dapibus ac facilisis in&lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;Morbi leo risus&lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;Porta ac consectetur ac&lt;/li&gt;
+                        &lt;li class="list-group-item"&gt;Vestibulum at eros&lt;/li&gt;
+                    &lt;/ul&gt;
+                </code>
+            </pre>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/list-group/" target="_blank">http://v4-alpha.getbootstrap.com/components/list-group/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-list-group.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-list-group.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ List Group -->
+
+<!-- Modals -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="modal" class="card-title">Modal</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</p>
+            <h6>Example Code:</h6>
+            <pre class="language-HTML">
+                <code class="language-HTML">
+                    &lt;div class="modal fade"&gt;
+                      &lt;div class="modal-dialog" role="document"&gt;
+                        &lt;div class="modal-content"&gt;
+                          &lt;div class="modal-header"&gt;
+                            &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+                              &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+                            &lt;/button&gt;
+                            &lt;h4 class="modal-title"&gt;Modal title&lt;/h4&gt;
+                          &lt;/div&gt;
+                          &lt;div class="modal-body"&gt;
+                            &lt;p&gt;One fine body&hellip;&lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;div class="modal-footer"&gt;
+                            &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+                            &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;&lt;!-- /.modal-content --&gt;
+                      &lt;/div&gt;&lt;!-- /.modal-dialog --&gt;
+                    &lt;/div&gt;&lt;!-- /.modal --&gt;
+                </code>
+            </pre>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Modal options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Background modal color</strong></td>
+                        <td><code>.bg-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to use for modal background.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Border modal color</strong></td>
+                        <td><code>.border-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to use for modal border color.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Modal sizes</strong></td>
+                        <td><code>.modal-[xl/lg/sm/xs]</code></td>
+                        <td>Different sizes of modal that can be used for different examples.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>There are so many features that can be used for modals. Like :</p>
+            <ul>
+                <li>Different heading options</li>
+                <li>Different animation to open modal, etc...</li>
+            </ul>
+            <p>You can also create button dropdowns and split button using <code>.btn-group</code> wrapper.</p>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr>
+                        <td><strong>Bootstrap Modal</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/modal/" target="_blank">http://v4-alpha.getbootstrap.com/components/modal/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-modals.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-modals.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Modals -->
+
+<!-- Pagination -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="pagination" class="card-title">Pagination</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Simple pagination inspired by Rdio, great for apps and search results. The large block is hard to miss, easily scalable, and provides large click areas.</p>
+            <h5>Labelling the pagination component</h5>
+            <p>The pagination component should be wrapped in a <code>&lt;nav&gt;</code> element to identify it as a navigation section to screen readers and other assistive technologies. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be <code>aria-label="previous"</code>.</p>
+            <p>Below have options that you can use with pagination :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Pagination options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Pagination Sizes</strong></td>
+                        <td><code>.pagination-[lg/sm]</code></td>
+                        <td>Large and small pagination styles.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/pagination/" target="_blank">http://v4-alpha.getbootstrap.com/components/pagination/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pagination.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pagination.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Pagination -->
+
+<!-- Navs -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="navs" class="card-title">Navs</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Roll your own navigation style by extending the base <code>.nav</code> component. All Bootstrap’s nav components are built on top of this by specifying additional styles. Includes styles for the disabled state, but <strong>not the active state.</strong></p>
+            <p>Below have options that you can use with navs :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Navs options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Border wrapper</strong></td>
+                        <td><code>.wrap-border</code></td>
+                        <td>Wrap with border to nav.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Square Border</strong></td>
+                        <td><code>.square-border</code></td>
+                        <td>For square navs border.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nav divider</strong></td>
+                        <td><code>.dropdown-divider</code></td>
+                        <td>To set divider between sections.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/navs/#base-nav" target="_blank">http://v4-alpha.getbootstrap.com/components/navs/#base-nav</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-navs/component-navs-component.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-navs/component-navs-component.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Navs -->
+
+<!-- Tabs -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="tabs" class="card-title">Tabs</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate a tabbed interface. Use them to create tabbable regions and to extend navigational tabs.</p>
+            <p>Below have options that you can use with tabs :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Tabs options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic Tabs</strong></td>
+                        <td><code>.nav-tabs</code></td>
+                        <td>Simple basic nav tabs</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Justified Tabs</strong></td>
+                        <td><code>.nav-justified</code></td>
+                        <td>For justified tabs with equal width.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vertical Tabs</strong></td>
+                        <td><code>.nav-vertical</code></td>
+                        <td>For vertical style of the tabs.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/navs/#tabs" target="_blank">http://v4-alpha.getbootstrap.com/components/navs/#tabs</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tabs-component.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tabs-component.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Tabs -->
+
+<!-- Pills -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="pills" class="card-title">Pills</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Navigation available in Bootstrap share general markup and styles, from the base <code>.nav</code> class to the active and disabled states. Swap modifier classes to switch between each style.</p>
+            <p>Below have options that you can use with pills :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Pills options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic Pills</strong></td>
+                        <td><code>.nav-pills</code></td>
+                        <td>Simple basic nav pills</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Justified Pills</strong></td>
+                        <td><code>.nav-justified</code></td>
+                        <td>For justified pills with equal width.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stacked Pills</strong></td>
+                        <td><code>.nav-stacked</code></td>
+                        <td>To stack pills vertically. Each <code>.nav-link</code> becomes block-level, allowing for larger hit areas via mouse or tap.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/navs/#pills" target="_blank">http://v4-alpha.getbootstrap.com/components/navs/#pills</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pills-component.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pills-component.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Pills -->
+
+<!-- Tooltips -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="tooltips" class="card-title">Tooltips</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Tooltips are an updated version, which don’t rely on images, use CSS3 for animations, and data-attributes for local title storage.</p>
+            <p><strong>Tooltip requires <code>data-toggle="tooltip"</code>.</strong></p>
+            <p>To add tooltip text, use <code>data-original-title="Tooltip title"</code>.</p>
+            <p>Below have options that you can use with Tooltip :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Tooltip options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tooltip Positions</strong></td>
+                        <td><code>data-placement</code></td>
+                        <td>Default: top. Options are top,right,bottom,left.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tooltip Triggers</strong></td>
+                        <td><code>data-trigger</code></td>
+                        <td>By default, tooltip triggers onhover. Trigger options are <code>click, hover, focus &amp; manual</code>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tooltip Animation</strong></td>
+                        <td><code>data-animation</code></td>
+                        <td>Default is true.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Delay Show/Hide Tooltip</strong></td>
+                        <td><code>data-delay</code></td>
+                        <td>Delay showing and hiding the tooltip <code>(ms)</code> - <strong>does not apply to manual trigger type.</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Supports HTML</strong></td>
+                        <td><code>data-html</code></td>
+                        <td>If this value is <em>true</em>, you can use html in <code>data-original-title</code> text.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/navs/#pills" target="_blank">http://v4-alpha.getbootstrap.com/components/tooltips/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tooltips.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tooltips.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Tooltips -->
+
+<!-- Popovers -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="popovers" class="card-title">Popovers</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Add small overlay content, like those found in iOS, to any element for housing secondary information.</p>
+            <p><strong>Popovers requires <code>data-toggle="popover"</code>.</strong></p>
+            <p>To add popover text, use <code>data-content="Popovers text"</code>.</p>
+            <p>Below have options that you can use with Popovers :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Popovers options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Popovers Positions</strong></td>
+                        <td><code>data-placement</code></td>
+                        <td>Default: top. Options are top,right,bottom,left.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Popovers Triggers</strong></td>
+                        <td><code>data-trigger</code></td>
+                        <td>By default, popover triggers onhover. Trigger options are <code>click, hover, focus &amp; manual</code>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Popovers Animation</strong></td>
+                        <td><code>data-animation</code></td>
+                        <td>Default is true.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Delay Show/Hide Popovers</strong></td>
+                        <td><code>data-delay</code></td>
+                        <td>Delay showing and hiding the popover <code>(ms)</code> - <strong>does not apply to manual trigger type.</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Supports HTML</strong></td>
+                        <td><code>data-html</code></td>
+                        <td>If this value is <em>true</em>, you can use html in <code>data-content</code> text.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/popovers/" target="_blank">http://v4-alpha.getbootstrap.com/components/popovers/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-popovers.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-popovers.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Popovers -->
+
+<!-- Tags -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="tags" class="card-title">Tags</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Small and adaptive tag for adding context to just about any content.</p>
+            <p>Below have options that you can use with Tags :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Tags options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic Tags</strong></td>
+                        <td><code>.tag-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to add for tag.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/tag" target="_blank">http://v4-alpha.getbootstrap.com/components/tag</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tag.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-tag.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Tags -->
+
+<!-- Pill tags -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="pill-tags" class="card-title">Pill tags</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Use the <code>.tag-pill</code> modifier class with <code>.tag</code> class to make pill tags.</p>
+            <p>Below have options that you can use with Pill tags :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Pill tags options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic Pill tags</strong></td>
+                        <td><code>.tag-*</code></td>
+                        <td>Use any template color from <a href="documentation-color-palette.html">COLOR PALETTE</a> that you like to add for pill tag.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/tag/#pill-tags" target="_blank">http://v4-alpha.getbootstrap.com/components/tag/#pill-tags</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pill-tags.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-pill-tags.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Pill tags -->
+
+<!-- Progress -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="progress" class="card-title">Progress</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">Stylize the HTML5 <code>&lt;progress&gt;</code> element.</p>
+            <p>Below have options that you can use with Progress :</p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Progress options</th>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Basic Progress</strong></td>
+                        <td><code>.progress</code></td>
+                        <td>Basic progress bars using this class.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Colored Progress</strong></td>
+                        <td><code>.progress-*</code></td>
+                        <td>Use <a href="documentation-color-palette.html">COLOR PALETTE</a> for progress color.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Striped Progress</strong></td>
+                        <td><code>.progress-striped.progress-*</code></td>
+                        <td>Striped progress using template <a href="documentation-color-palette.html">COLOR PALETTE</a>.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/components/progress" target="_blank">http://v4-alpha.getbootstrap.com/components/progress</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-progress.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-progress.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Progress -->
+
+<!-- Media Objects -->
+<div class="card">
+    <div class="card-header">
+        <h4 id="media-object" class="card-title">Media Objects</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body collapse in" aria-expanded="true">
+        <div class="card-block">
+            <p class="content-group">The media object is an abstract element used as the basis for building more complex and repetitive components.</p>
+            <p><strong>Example Code :</strong></p>
+            <pre class="language-HTML">
+                <code class="language-HTML">
+                    &lt;div class="media"&gt;
+                        &lt;a class="media-left" href="#"&gt;
+                            &lt;img class="media-object" src="..." alt="Generic placeholder image"&gt;
+                        &lt;/a&gt;
+                        &lt;div class="media-body"&gt;
+                            &lt;h4 class="media-heading"&gt;Media heading&lt;/h4&gt;
+                            Media Text
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+
+            <p><strong>Referrals :</strong></p>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bootstrap Page</strong></td>
+                        <td><a href="http://v4-alpha.getbootstrap.com/layout/media-object/" target="_blank">http://v4-alpha.getbootstrap.com/layout/media-object/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Template Page</strong></td>
+                        <td><a href="https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-media-objects.html" target="_blank">https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/component-media-objects.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Media Objects -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <footer class="footer footer-static footer-light navbar-border">
+      <p class="clearfix text-muted text-sm-center mb-0 px-2"><span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2017 <a href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" target="_blank" class="text-bold-800 grey darken-2">PIXINVENT </a>, All rights reserved. </span><span class="float-md-right d-xs-block d-md-inline-block">Hand-crafted & Made with <i class="icon-heart5 pink"></i></span></p>
+    </footer>
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="../app-assets/js/core/libraries/jquery.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/tether.min.js" type="text/javascript"></script>
+    <script src="../app-assets/js/core/libraries/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/unison.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/blockUI.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/jquery.matchHeight-min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/screenfull.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/extensions/pace.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN ROBUST JS-->
+    <script src="../app-assets/js/core/app-menu.js" type="text/javascript"></script>
+    <script src="../app-assets/js/core/app.js" type="text/javascript"></script>
+    <!-- END ROBUST JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <script src="../app-assets/js/scripts/documentation.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/prism.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/ui/affix.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL JS-->
+  </body>
+</html>

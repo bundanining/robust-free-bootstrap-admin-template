@@ -1,0 +1,26 @@
+// Remove focus/active focus outline
+.btn {
+  &:focus,
+  &.focus {
+    outline: none;
+  }
+
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+        outline: none;
+    }
+  }
+  &.btn-social{
+    padding: 0.5rem 0.25rem 0.5rem 2.75rem;
+  }
+}
+.btn-min-width{
+  min-width:8.5rem;
+}
+.color-box{
+  width: 100%;
+  height: 2.75rem;
+  border-radius: 0.25rem;
+}

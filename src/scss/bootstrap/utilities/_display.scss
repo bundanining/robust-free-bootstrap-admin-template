@@ -1,0 +1,23 @@
+//
+// Display utilities
+//
+
+.d-block {
+  display: block !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-inline {
+  display: inline !important;
+}
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .d-#{$breakpoint}-block   { display: block !important; }
+    .d-#{$breakpoint}-inline-block  { display: inline-block !important; }
+    .d-#{$breakpoint}-inline { display: inline !important; }
+  }
+}

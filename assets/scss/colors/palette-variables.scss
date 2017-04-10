@@ -1,0 +1,449 @@
+//	================================================================================================
+//	File Name: palette.scss
+//	Description: Custom theme specific variables and other content variations
+//	----------------------------------------------------------------------------------------------
+//	Item Name: Robust - Responsive Admin Theme
+//	Version: 1.0
+//	Author: PIXINVENT
+//	Author URL: http://www.themeforest.net/user/pixinvent
+//	================================================================================================
+
+//  ================================================================================================
+//  Use this file to override color pallete variables
+//  You can use any color pallete variable from app-assets/scss/core/colors/palette-variables.scss
+//  ================================================================================================
+
+
+$white: (
+  "base": #FFFFFF,
+);
+$black: (
+  "base": #000000,
+);
+$primary: (
+  "lighten-5":  #F1EBFF,
+  "lighten-4":  #E9E3F8,
+  "lighten-3":  #BCAAE9,
+  "lighten-2":  #AC92EC,
+  "lighten-1":  #A992E2,
+  "base":       #967ADC,
+  "darken-1":   #8362D6,
+  "darken-2":   #704ACF,
+  "darken-3":   #5E34C6,
+  "darken-4":   #522EAE,
+  "accent-1":   #9e77fd,
+  "accent-2":   #9067f5,
+  "accent-3":   #845de2,
+  "accent-4":   #7452c7
+);
+$success: (
+  "lighten-5":  #C2EDE3,
+  "lighten-4":  #97E1CE,
+  "lighten-3":  #60D0B4,
+  "lighten-2":  #48CFAD,
+  "lighten-1":  #48C9A9,
+  "base":       #37BC9B,
+  "darken-1":   #30A487,
+  "darken-2":   #298D74,
+  "darken-3":   #227560,
+  "darken-4":   #1B5D4D,
+  "accent-1":   #D8F7F0,
+  "accent-2":   #C2EDE3,
+  "accent-3":   #3EC3A2,
+  "accent-4":   #298D74
+);
+$info: (
+  "lighten-5":  #DAF0F8,
+  "lighten-4":  #ABDDEF,
+  "lighten-3":  #6EC4E4,
+  "lighten-2":  #4FC1E9,
+  "lighten-1":  #55B9DF,
+  "base":       #3BAFDA,
+  "darken-1":   #27A2CF,
+  "darken-2":   #228EB6,
+  "darken-3":   #1D7A9C,
+  "darken-4":   #196682,
+  "accent-1":   #80D2EF,
+  "accent-2":   #25B1E4,
+  "accent-3":   #168BB6,
+  "accent-4":   #126F91
+);
+$warning: (
+  "lighten-5":  #FFFCF6,
+  "lighten-4":  #FCE9C1,
+  "lighten-3":  #F9D07C,
+  "lighten-2":  #FFCE54,
+  "lighten-1":  #F7C55F,
+  "base":       #F6BB42,
+  "darken-1":   #F5B025,
+  "darken-2":   #EFA50B,
+  "darken-3":   #D2910A,
+  "darken-4":   #B57C09,
+  "accent-1":   #fddea1,
+  "accent-2":   #f9d07d,
+  "accent-3":   #FDA85C,
+  "accent-4":   #F5A90B
+);
+$danger: (
+  "lighten-5":  #F9E1E4,
+  "lighten-4":  #F0B3B9,
+  "lighten-3":  #E47782,
+  "lighten-2":  #ED5565,
+  "lighten-1":  #DF5E6A,
+  "base":       #DA4453,
+  "darken-1":   #D52A3B,
+  "darken-2":   #BC2534,
+  "darken-3":   #A2202D,
+  "darken-4":   #891B26,
+  "accent-1":   #F9E1E4,
+  "accent-2":   #EA7983,
+  "accent-3":   #DF5E6A,
+  "accent-4":   #CC2F3E
+);
+
+$red: (
+  "lighten-5":  #FFEBEE,
+  "lighten-4":  #FFCDD2,
+  "lighten-3":  #EF9A9A,
+  "lighten-2":  #E57373,
+  "lighten-1":  #EF5350,
+  "base":       #F44336,
+  "darken-1":   #E53935,
+  "darken-2":   #D32F2F,
+  "darken-3":   #C62828,
+  "darken-4":   #B71C1C,
+  "accent-1":   #FF8A80,
+  "accent-2":   #FF5252,
+  "accent-3":   #FF1744,
+  "accent-4":   #D50000
+);
+
+$pink: (
+  "lighten-5":  #FCE4EC,
+  "lighten-4":  #F8BBD0,
+  "lighten-3":  #F48FB1,
+  "lighten-2":  #F06292,
+  "lighten-1":  #EC407A,
+  "base":       #E91E63,
+  "darken-1":   #D81B60,
+  "darken-2":   #C2185B,
+  "darken-3":   #AD1457,
+  "darken-4":   #880E4F,
+  "accent-1":   #FF80AB,
+  "accent-2":   #FF4081,
+  "accent-3":   #F50057,
+  "accent-4":   #C51162
+);
+
+$purple: (
+  "lighten-5":  #F3E5F5,
+  "lighten-4":  #E1BEE7,
+  "lighten-3":  #CE93D8,
+  "lighten-2":  #BA68C8,
+  "lighten-1":  #AB47BC,
+  "base":       #9C27B0,
+  "darken-1":   #8E24AA,
+  "darken-2":   #7B1FA2,
+  "darken-3":   #6A1B9A,
+  "darken-4":   #4A148C,
+  "accent-1":   #EA80FC,
+  "accent-2":   #E040FB,
+  "accent-3":   #D500F9,
+  "accent-4":   #DD00FF
+);
+
+$deep-purple: (
+  "lighten-5":  #EDE7F6,
+  "lighten-4":  #D1C4E9,
+  "lighten-3":  #B39DDB,
+  "lighten-2":  #9575CD,
+  "lighten-1":  #7E57C2,
+  "base":       #673AB7,
+  "darken-1":   #5E35B1,
+  "darken-2":   #512DA8,
+  "darken-3":   #4527A0,
+  "darken-4":   #311B92,
+  "accent-1":   #B388FF,
+  "accent-2":   #7C4DFF,
+  "accent-3":   #651FFF,
+  "accent-4":   #6200EA
+);
+
+$indigo: (
+  "lighten-5":  #E8EAF6,
+  "lighten-4":  #C5CAE9,
+  "lighten-3":  #9FA8DA,
+  "lighten-2":  #7986CB,
+  "lighten-1":  #5C6BC0,
+  "base":       #3F51B5,
+  "darken-1":   #3949AB,
+  "darken-2":   #303F9F,
+  "darken-3":   #283593,
+  "darken-4":   #1A237E,
+  "accent-1":   #8C9EFF,
+  "accent-2":   #536DFE,
+  "accent-3":   #3D5AFE,
+  "accent-4":   #304FFE
+);
+
+$blue: (
+  "lighten-5":  #E3F2FD,
+  "lighten-4":  #BBDEFB,
+  "lighten-3":  #90CAF9,
+  "lighten-2":  #64B5F6,
+  "lighten-1":  #42A5F5,
+  "base":       #2196F3,
+  "darken-1":   #1E88E5,
+  "darken-2":   #1976D2,
+  "darken-3":   #1565C0,
+  "darken-4":   #0D47A1,
+  "accent-1":   #82B1FF,
+  "accent-2":   #448AFF,
+  "accent-3":   #2979FF,
+  "accent-4":   #2962FF
+);
+
+$light-blue: (
+  "lighten-5":  #E1F5FE,
+  "lighten-4":  #B3E5FC,
+  "lighten-3":  #81D4FA,
+  "lighten-2":  #4FC3F7,
+  "lighten-1":  #29B6F6,
+  "base":       #03A9F4,
+  "darken-1":   #039BE5,
+  "darken-2":   #0288D1,
+  "darken-3":   #0277BD,
+  "darken-4":   #01579B,
+  "accent-1":   #80D8FF,
+  "accent-2":   #40C4FF,
+  "accent-3":   #00B0FF,
+  "accent-4":   #0091EA
+);
+
+$cyan: (
+  "lighten-5":  #E0F7FA,
+  "lighten-4":  #B2EBF2,
+  "lighten-3":  #80DEEA,
+  "lighten-2":  #4DD0E1,
+  "lighten-1":  #26C6DA,
+  "base":       #00BCD4,
+  "darken-1":   #00ACC1,
+  "darken-2":   #0097A7,
+  "darken-3":   #00838F,
+  "darken-4":   #006064,
+  "accent-1":   #84FFFF,
+  "accent-2":   #18FFFF,
+  "accent-3":   #00E5FF,
+  "accent-4":   #00B8D4
+);
+
+$teal: (
+  "lighten-5":  #E0F2F1,
+  "lighten-4":  #B2DFDB,
+  "lighten-3":  #80CBC4,
+  "lighten-2":  #4DB6AC,
+  "lighten-1":  #26A69A,
+  "base":       #009688,
+  "darken-1":   #00897B,
+  "darken-2":   #00796B,
+  "darken-3":   #00695C,
+  "darken-4":   #004D40,
+  "accent-1":   #A7FFEB,
+  "accent-2":   #64FFDA,
+  "accent-3":   #1DE9B6,
+  "accent-4":   #00BFA5
+);
+
+$green: (
+  "lighten-5":  #E8F5E9,
+  "lighten-4":  #C8E6C9,
+  "lighten-3":  #A5D6A7,
+  "lighten-2":  #81C784,
+  "lighten-1":  #66BB6A,
+  "base":       #4CAF50,
+  "darken-1":   #43A047,
+  "darken-2":   #388E3C,
+  "darken-3":   #2E7D32,
+  "darken-4":   #1B5E20,
+  "accent-1":   #B9F6CA,
+  "accent-2":   #69F0AE,
+  "accent-3":   #00E676,
+  "accent-4":   #00C853
+);
+
+$light-green: (
+  "lighten-5":  #F1F8A9,
+  "lighten-4":  #DCEDC8,
+  "lighten-3":  #C5E1A5,
+  "lighten-2":  #AED581,
+  "lighten-1":  #9CCC65,
+  "base":       #8BC34A,
+  "darken-1":   #7CB342,
+  "darken-2":   #689F38,
+  "darken-3":   #558B2F,
+  "darken-4":   #33691E,
+  "accent-1":   #CCFF90,
+  "accent-2":   #B2FF59,
+  "accent-3":   #76FF03,
+  "accent-4":   #64DD17
+);
+
+$lime: (
+  "lighten-5":  #F9FBE7,
+  "lighten-4":  #F0F4C3,
+  "lighten-3":  #E6EE9C,
+  "lighten-2":  #DCE775,
+  "lighten-1":  #D4E157,
+  "base":       #CDDC39,
+  "darken-1":   #C0CA33,
+  "darken-2":   #AFB42B,
+  "darken-3":   #9E9D24,
+  "darken-4":   #827717,
+  "accent-1":   #F4FF81,
+  "accent-2":   #EEFF41,
+  "accent-3":   #C6FF00,
+  "accent-4":   #AEEA00
+);
+
+$yellow: (
+  "lighten-5":  #FFFDE7,
+  "lighten-4":  #FFF9C4,
+  "lighten-3":  #FFF59D,
+  "lighten-2":  #FFF176,
+  "lighten-1":  #FFEE58,
+  "base":       #FFEB3B,
+  "darken-1":   #FDD835,
+  "darken-2":   #FBC02D,
+  "darken-3":   #F9A825,
+  "darken-4":   #F57F17,
+  "accent-1":   #FFFF8D,
+  "accent-2":   #FFFF00,
+  "accent-3":   #FFEA00,
+  "accent-4":   #FFD600
+);
+
+$amber: (
+  "lighten-5":  #FFF8E1,
+  "lighten-4":  #FFECB3,
+  "lighten-3":  #FFE082,
+  "lighten-2":  #FFD54F,
+  "lighten-1":  #FFCA28,
+  "base":       #FFC107,
+  "darken-1":   #FFB300,
+  "darken-2":   #FFA000,
+  "darken-3":   #FF8F00,
+  "darken-4":   #FF6F00,
+  "accent-1":   #FFE57F,
+  "accent-2":   #FFD740,
+  "accent-3":   #FFC400,
+  "accent-4":   #FFAB00
+);
+
+$orange: (
+  "lighten-5":  #FFF3E0,
+  "lighten-4":  #FFE0B2,
+  "lighten-3":  #FFCC80,
+  "lighten-2":  #FFB74D,
+  "lighten-1":  #FFA726,
+  "base":       #FF9800,
+  "darken-1":   #FB8C00,
+  "darken-2":   #F57C00,
+  "darken-3":   #EF6C00,
+  "darken-4":   #E65100,
+  "accent-1":   #FFD180,
+  "accent-2":   #FFAB40,
+  "accent-3":   #FF9100,
+  "accent-4":   #FF6D00
+);
+
+$deep-orange: (
+  "lighten-5":  #FbE9E7,
+  "lighten-4":  #FFCCBC,
+  "lighten-3":  #FFAB91,
+  "lighten-2":  #FF8A65,
+  "lighten-1":  #FF7043,
+  "base":       #FF5722,
+  "darken-1":   #F4511E,
+  "darken-2":   #E64A19,
+  "darken-3":   #D84315,
+  "darken-4":   #BF360C,
+  "accent-1":   #FF9E80,
+  "accent-2":   #FF6E40,
+  "accent-3":   #FF3D00,
+  "accent-4":   #DD2C00
+);
+
+$brown: (
+  "lighten-5":  #EFEBE9,
+  "lighten-4":  #D7CCC8,
+  "lighten-3":  #BCAAA4,
+  "lighten-2":  #A1887F,
+  "lighten-1":  #8D6E63,
+  "base":       #795548,
+  "darken-1":   #6D4C41,
+  "darken-2":   #5D4037,
+  "darken-3":   #4E342E,
+  "darken-4":   #3E2723
+);
+
+$blue-grey: (
+  "lighten-5":  #ECEFF1,
+  "lighten-4":  #CFD8DC,
+  "lighten-3":  #B0BEC5,
+  "lighten-2":  #90A4AE,
+  "lighten-1":  #78909C,
+  "base":       #607D8B,
+  "darken-1":   #546E7A,
+  "darken-2":   #455A64,
+  "darken-3":   #37474F,
+  "darken-4":   #263238
+);
+
+$grey: (
+  "lighten-5":  #FAFAFA,
+  "lighten-4":  #F5F5F5,
+  "lighten-3":  #EEEEEE,
+  "lighten-2":  #E0E0E0,
+  "lighten-1":  #BDBDBD,
+  "base":       #9E9E9E,
+  "darken-1":   #757575,
+  "darken-2":   #616161,
+  "darken-3":   #424242,
+  "darken-4":   #212121
+);
+
+$shades: (
+  "black":        #000000,
+  "white":        #FFFFFF,
+  "transparent":  transparent
+);
+
+$colors: (
+  "white": $white,
+  "black": $black,
+  "primary": $primary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "red": $red,
+  "pink": $pink,
+  "purple": $purple,
+  "deep-purple": $deep-purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "light-blue": $light-blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "light-green": $light-green,
+  "lime": $lime,
+  "yellow": $yellow,
+  "amber": $amber,
+  "orange": $orange,
+  "deep-orange": $deep-orange,
+  "brown": $brown,
+  "blue-grey": $blue-grey,
+  "grey": $grey,
+  "shades": $shades
+);

@@ -1,0 +1,14 @@
+.bs-example{
+	[class^="col-"]{
+		span{
+			padding: .75rem;
+			background-color: rgba(86, 61, 124, 0.15);
+			border: 1px solid rgba(86, 61, 124, 0.2);
+			display: block;
+		}
+		margin-bottom: 1rem;
+	}
+	.row + .row {
+		margin-top: 1rem;
+	}
+}

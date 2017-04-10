@@ -1,0 +1,239 @@
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-primary {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#704ACF), to(#A992E2));
+  background-image : -webkit-linear-gradient(top, #704ACF 0%, #A992E2 100%);
+  background-image :    -moz-linear-gradient(top, #704ACF 0%, #A992E2 100%);
+  background-image :      -o-linear-gradient(top, #704ACF 0%, #A992E2 100%);
+  background-image :         linear-gradient(to bottom, #704ACF 0%, #A992E2 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF704ACF', endColorstr='#FFA992E2', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-success, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-success {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#298D74), to(#48C9A9));
+  background-image : -webkit-linear-gradient(top, #298D74 0%, #48C9A9 100%);
+  background-image :    -moz-linear-gradient(top, #298D74 0%, #48C9A9 100%);
+  background-image :      -o-linear-gradient(top, #298D74 0%, #48C9A9 100%);
+  background-image :         linear-gradient(to bottom, #298D74 0%, #48C9A9 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF298D74', endColorstr='#FF48C9A9', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-info, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-info {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#228EB6), to(#55B9DF));
+  background-image : -webkit-linear-gradient(top, #228EB6 0%, #55B9DF 100%);
+  background-image :    -moz-linear-gradient(top, #228EB6 0%, #55B9DF 100%);
+  background-image :      -o-linear-gradient(top, #228EB6 0%, #55B9DF 100%);
+  background-image :         linear-gradient(to bottom, #228EB6 0%, #55B9DF 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF228EB6', endColorstr='#FF55B9DF', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-warning, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-warning {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#EFA50B), to(#F7C55F));
+  background-image : -webkit-linear-gradient(top, #EFA50B 0%, #F7C55F 100%);
+  background-image :    -moz-linear-gradient(top, #EFA50B 0%, #F7C55F 100%);
+  background-image :      -o-linear-gradient(top, #EFA50B 0%, #F7C55F 100%);
+  background-image :         linear-gradient(to bottom, #EFA50B 0%, #F7C55F 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEFA50B', endColorstr='#FFF7C55F', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-danger, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-danger {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#BC2534), to(#DF5E6A));
+  background-image : -webkit-linear-gradient(top, #BC2534 0%, #DF5E6A 100%);
+  background-image :    -moz-linear-gradient(top, #BC2534 0%, #DF5E6A 100%);
+  background-image :      -o-linear-gradient(top, #BC2534 0%, #DF5E6A 100%);
+  background-image :         linear-gradient(to bottom, #BC2534 0%, #DF5E6A 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFBC2534', endColorstr='#FFDF5E6A', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-red, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-red {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#D32F2F), to(#EF5350));
+  background-image : -webkit-linear-gradient(top, #D32F2F 0%, #EF5350 100%);
+  background-image :    -moz-linear-gradient(top, #D32F2F 0%, #EF5350 100%);
+  background-image :      -o-linear-gradient(top, #D32F2F 0%, #EF5350 100%);
+  background-image :         linear-gradient(to bottom, #D32F2F 0%, #EF5350 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD32F2F', endColorstr='#FFEF5350', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-pink, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-pink {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#C2185B), to(#EC407A));
+  background-image : -webkit-linear-gradient(top, #C2185B 0%, #EC407A 100%);
+  background-image :    -moz-linear-gradient(top, #C2185B 0%, #EC407A 100%);
+  background-image :      -o-linear-gradient(top, #C2185B 0%, #EC407A 100%);
+  background-image :         linear-gradient(to bottom, #C2185B 0%, #EC407A 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFC2185B', endColorstr='#FFEC407A', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-purple, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-purple {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#7B1FA2), to(#AB47BC));
+  background-image : -webkit-linear-gradient(top, #7B1FA2 0%, #AB47BC 100%);
+  background-image :    -moz-linear-gradient(top, #7B1FA2 0%, #AB47BC 100%);
+  background-image :      -o-linear-gradient(top, #7B1FA2 0%, #AB47BC 100%);
+  background-image :         linear-gradient(to bottom, #7B1FA2 0%, #AB47BC 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF7B1FA2', endColorstr='#FFAB47BC', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-deep-purple, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-deep-purple {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#512DA8), to(#7E57C2));
+  background-image : -webkit-linear-gradient(top, #512DA8 0%, #7E57C2 100%);
+  background-image :    -moz-linear-gradient(top, #512DA8 0%, #7E57C2 100%);
+  background-image :      -o-linear-gradient(top, #512DA8 0%, #7E57C2 100%);
+  background-image :         linear-gradient(to bottom, #512DA8 0%, #7E57C2 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF512DA8', endColorstr='#FF7E57C2', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-indigo, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-indigo {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#303F9F), to(#5C6BC0));
+  background-image : -webkit-linear-gradient(top, #303F9F 0%, #5C6BC0 100%);
+  background-image :    -moz-linear-gradient(top, #303F9F 0%, #5C6BC0 100%);
+  background-image :      -o-linear-gradient(top, #303F9F 0%, #5C6BC0 100%);
+  background-image :         linear-gradient(to bottom, #303F9F 0%, #5C6BC0 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF303F9F', endColorstr='#FF5C6BC0', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-blue, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-blue {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#1976D2), to(#42A5F5));
+  background-image : -webkit-linear-gradient(top, #1976D2 0%, #42A5F5 100%);
+  background-image :    -moz-linear-gradient(top, #1976D2 0%, #42A5F5 100%);
+  background-image :      -o-linear-gradient(top, #1976D2 0%, #42A5F5 100%);
+  background-image :         linear-gradient(to bottom, #1976D2 0%, #42A5F5 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1976D2', endColorstr='#FF42A5F5', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-light-blue, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-light-blue {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#0288D1), to(#29B6F6));
+  background-image : -webkit-linear-gradient(top, #0288D1 0%, #29B6F6 100%);
+  background-image :    -moz-linear-gradient(top, #0288D1 0%, #29B6F6 100%);
+  background-image :      -o-linear-gradient(top, #0288D1 0%, #29B6F6 100%);
+  background-image :         linear-gradient(to bottom, #0288D1 0%, #29B6F6 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0288D1', endColorstr='#FF29B6F6', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-cyan, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-cyan {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#0097A7), to(#26C6DA));
+  background-image : -webkit-linear-gradient(top, #0097A7 0%, #26C6DA 100%);
+  background-image :    -moz-linear-gradient(top, #0097A7 0%, #26C6DA 100%);
+  background-image :      -o-linear-gradient(top, #0097A7 0%, #26C6DA 100%);
+  background-image :         linear-gradient(to bottom, #0097A7 0%, #26C6DA 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0097A7', endColorstr='#FF26C6DA', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-teal, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-teal {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#00796B), to(#26A69A));
+  background-image : -webkit-linear-gradient(top, #00796B 0%, #26A69A 100%);
+  background-image :    -moz-linear-gradient(top, #00796B 0%, #26A69A 100%);
+  background-image :      -o-linear-gradient(top, #00796B 0%, #26A69A 100%);
+  background-image :         linear-gradient(to bottom, #00796B 0%, #26A69A 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF00796B', endColorstr='#FF26A69A', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-green, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-green {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#388E3C), to(#66BB6A));
+  background-image : -webkit-linear-gradient(top, #388E3C 0%, #66BB6A 100%);
+  background-image :    -moz-linear-gradient(top, #388E3C 0%, #66BB6A 100%);
+  background-image :      -o-linear-gradient(top, #388E3C 0%, #66BB6A 100%);
+  background-image :         linear-gradient(to bottom, #388E3C 0%, #66BB6A 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF388E3C', endColorstr='#FF66BB6A', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-light-green, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-light-green {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#689F38), to(#9CCC65));
+  background-image : -webkit-linear-gradient(top, #689F38 0%, #9CCC65 100%);
+  background-image :    -moz-linear-gradient(top, #689F38 0%, #9CCC65 100%);
+  background-image :      -o-linear-gradient(top, #689F38 0%, #9CCC65 100%);
+  background-image :         linear-gradient(to bottom, #689F38 0%, #9CCC65 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF689F38', endColorstr='#FF9CCC65', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-lime, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-lime {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#AFB42B), to(#D4E157));
+  background-image : -webkit-linear-gradient(top, #AFB42B 0%, #D4E157 100%);
+  background-image :    -moz-linear-gradient(top, #AFB42B 0%, #D4E157 100%);
+  background-image :      -o-linear-gradient(top, #AFB42B 0%, #D4E157 100%);
+  background-image :         linear-gradient(to bottom, #AFB42B 0%, #D4E157 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFAFB42B', endColorstr='#FFD4E157', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-yellow, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-yellow {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#FBC02D), to(#FFEE58));
+  background-image : -webkit-linear-gradient(top, #FBC02D 0%, #FFEE58 100%);
+  background-image :    -moz-linear-gradient(top, #FBC02D 0%, #FFEE58 100%);
+  background-image :      -o-linear-gradient(top, #FBC02D 0%, #FFEE58 100%);
+  background-image :         linear-gradient(to bottom, #FBC02D 0%, #FFEE58 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFBC02D', endColorstr='#FFFFEE58', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-amber, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-amber {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#FFA000), to(#FFCA28));
+  background-image : -webkit-linear-gradient(top, #FFA000 0%, #FFCA28 100%);
+  background-image :    -moz-linear-gradient(top, #FFA000 0%, #FFCA28 100%);
+  background-image :      -o-linear-gradient(top, #FFA000 0%, #FFCA28 100%);
+  background-image :         linear-gradient(to bottom, #FFA000 0%, #FFCA28 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFA000', endColorstr='#FFFFCA28', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-orange, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-orange {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#F57C00), to(#FFA726));
+  background-image : -webkit-linear-gradient(top, #F57C00 0%, #FFA726 100%);
+  background-image :    -moz-linear-gradient(top, #F57C00 0%, #FFA726 100%);
+  background-image :      -o-linear-gradient(top, #F57C00 0%, #FFA726 100%);
+  background-image :         linear-gradient(to bottom, #F57C00 0%, #FFA726 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF57C00', endColorstr='#FFFFA726', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-deep-orange, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-deep-orange {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#E64A19), to(#FF7043));
+  background-image : -webkit-linear-gradient(top, #E64A19 0%, #FF7043 100%);
+  background-image :    -moz-linear-gradient(top, #E64A19 0%, #FF7043 100%);
+  background-image :      -o-linear-gradient(top, #E64A19 0%, #FF7043 100%);
+  background-image :         linear-gradient(to bottom, #E64A19 0%, #FF7043 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE64A19', endColorstr='#FFFF7043', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-brown, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-brown {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#5D4037), to(#8D6E63));
+  background-image : -webkit-linear-gradient(top, #5D4037 0%, #8D6E63 100%);
+  background-image :    -moz-linear-gradient(top, #5D4037 0%, #8D6E63 100%);
+  background-image :      -o-linear-gradient(top, #5D4037 0%, #8D6E63 100%);
+  background-image :         linear-gradient(to bottom, #5D4037 0%, #8D6E63 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF5D4037', endColorstr='#FF8D6E63', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-blue-grey, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-blue-grey {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#455A64), to(#78909C));
+  background-image : -webkit-linear-gradient(top, #455A64 0%, #78909C 100%);
+  background-image :    -moz-linear-gradient(top, #455A64 0%, #78909C 100%);
+  background-image :      -o-linear-gradient(top, #455A64 0%, #78909C 100%);
+  background-image :         linear-gradient(to bottom, #455A64 0%, #78909C 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF455A64', endColorstr='#FF78909C', GradientType=0);
+}
+
+.bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-on.bootstrap-switch-grey, .bootstrap-switch .bootstrap-switch-container .bootstrap-switch-handle-off.bootstrap-switch-grey {
+  background-image : -webkit-gradient(linear, left top, left bottom, from(#616161), to(#BDBDBD));
+  background-image : -webkit-linear-gradient(top, #616161 0%, #BDBDBD 100%);
+  background-image :    -moz-linear-gradient(top, #616161 0%, #BDBDBD 100%);
+  background-image :      -o-linear-gradient(top, #616161 0%, #BDBDBD 100%);
+  background-image :         linear-gradient(to bottom, #616161 0%, #BDBDBD 100%);
+  background-repeat : repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF616161', endColorstr='#FFBDBDBD', GradientType=0);
+}

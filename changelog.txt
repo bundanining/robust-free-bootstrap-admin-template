@@ -1,0 +1,35 @@
+grunt dist-html --Layout="vertical-menu-template-lite" --LayoutName="vertical-menu-template-lite" --TextDirection="LTR"
+grunt jade:html --Layout="vertical-menu-template-lite" --LayoutName="vertical-menu-template-lite" --TextDirection="LTR"
+
+- Fixed: Horizontal layout small screen which space issue between top navbar and content
+- Fixed: Coming soon page with bg video option for RTL
+- Fixed: Missing css, js & images files.
+- Fixed: Console error for missing file and js issues
+- Fixed: Invoice list page table responsive and select all issue
+- Fixed: Horizontal timeline shadow and improve spacing
+- Fixed: RTL right sticky sidebar hidden on scroll
+- Fixed: Horizontal scrollbar issue where dropzone used
+- Fixed: Navigation icon right side icon alignment
+- Fixed: Perfect scrollbar, page should  scroll after content scroll
+- Fixed: Perfect scrollbar, page should  scroll after content scroll
+- Fixed: RTL Knob js icon center alignment
+- Fixed: RTL Social card carousal
+- Fixed: RTL Custom radio checkbox
+- Fixed: RTL Full-screen search horizontal scroll
+- Fixed: RTL Alert icons not coming in with arrow alert
+- Enhancement: Improved all charts js file and loading time
+- Enhancement: Megamenu components support
+- Enhancement: Improved all starter kit pages.
+- Enhancement: Removed functionality specific css/js include from common style/script file and included on requirement basis to improve loading speed
+- Added: Navbar with components
+
+
+class="#{navbarCustom}"
+class="#{navbarPosition} #{navbarColor}", class=(navbarHideOnScroll == true ? 'navbar-hide-on-scroll' : ''), class=(navbarBorder == true ? 'navbar-border' : ''), class=(navbarShadow == true ? 'navbar-shadow' : '')
+
+
+class="#{verticalMenuCustom}"
+class="#{menuType} #{menuColor} #{menuOpenType}", class=(menuNativeScroll == true ? 'menu-native-scroll' : ''), class=(menuIconRight == true ? 'menu-icon-right' : ''), class=(menuBorder == true ? 'menu-border' : ''), class=(menuShadow == true ? 'menu-shadow' : '')
+
+class="#{horizontalMenuCustom}"
+class="#{menuType} #{menuColor}", class=(menuFlipped == true ? 'navbar-flipped' : ''), menuWithoutDDArrow == true ? 'navbar-without-dd-arrow' : ''), class=(menuIconRight == true ? 'navbar-icon-right' : ''), class=(menuBorder == true ? 'navbar-border' : ''), class=(menuShadow == true ? 'navbar-shadow' : '')

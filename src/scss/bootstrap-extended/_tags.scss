@@ -1,0 +1,137 @@
+
+.tag{
+  &[class*='tag-']{
+    [class*='icon-']{
+      line-height: 1;
+      ~span{
+        position: relative;
+        bottom: 2px;
+        padding: 0 5px;
+      }
+    }
+    span{
+      position: relative;
+      bottom: 2px;
+      padding: 0 5px;
+    }
+    a{
+      color: #fff;
+    }
+    .dropdown-toggle::after,
+    &.dropdown-toggle::after{
+      position: relative;
+      top: -10px;
+      right: 5px;
+      font-size: 1rem;
+    }
+    .dropdown-menu{
+      a{
+        color: #555;
+      }
+    }
+  }
+  &.tag-square{
+    border-radius: 0;
+  }
+  &.tag-border{
+    background-color: transparent;
+    border-width: 3px !important;
+    font-size: 85%;
+  }
+  &.tag-striped{
+    background-color: #dadada;
+    border-width: 3px !important;
+    font-size: 0.85rem;
+    color: #555;
+    a{
+      color: #555;
+    }
+  }
+  &.tag.float-xs-right {
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
+  }
+}
+
+// tag sizes
+
+.tag-xl{
+  font-size: 1.8rem;
+}
+.tag-lg{
+  font-size: 1.2rem;
+}
+.tag-md{
+  font-size: 1rem;
+}
+.tag-sm{
+  font-size: 0.8rem;
+}
+
+// Colors
+//
+// Contextual variations (linked tags get darker on :hover).
+
+.tag-default {
+  @include tag-variant($tag-default-bg);
+}
+
+.tag-primary {
+  @include tag-variant($tag-primary-bg);
+}
+
+.tag-success {
+  @include tag-variant($tag-success-bg);
+}
+
+.tag-info {
+  @include tag-variant($tag-info-bg);
+}
+
+.tag-warning {
+  @include tag-variant($tag-warning-bg);
+}
+
+.tag-danger {
+  @include tag-variant($tag-danger-bg);
+}
+
+//Tag Up
+.tag-up{
+    position: relative;
+    top: -13px;
+    right: 14px;
+}
+.tag-icon{
+  i{
+    font-size: 100%;
+    margin-right: 5px;
+  }
+}
+
+.form-control + .block-tag{
+	display:block;
+}
+.block-tag{
+	margin-top:0.5rem;
+}
+/* .tag{
+  padding: 0.3rem 0.4rem;
+} */
+.block-area{
+	padding: 0.24rem 0.3rem;
+}
+
+//Prisam / Bootstrap tag class fix
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #905;
+  font-size: 100%;
+  font-weight: 400;
+  padding: 0;
+}

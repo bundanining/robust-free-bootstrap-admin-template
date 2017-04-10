@@ -1,0 +1,627 @@
+/* ===============================================================================================
+    File Name: navbar.scss
+    Description: Contain header navigation bar, vertical main navigation bar and
+    horiznotal main navigation bar related SCSS.
+    ----------------------------------------------------------------------------------------------
+    Item Name: Robust - Responsive Admin Theme
+    Version: 1.2
+    Author: PIXINVENT
+    Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================================*/
+
+%extend_hamburger_color {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: $navbar-light-bg;
+    }
+}
+
+.header-navbar {
+    padding: 0px;
+    min-height: $navbar-height;
+    transition: 300ms ease all;
+    .navbar-wrapper {
+        // padding:0;
+    }
+    // add border to navbar
+    &.navbar-border {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    // add shadow to navbar
+    &.navbar-shadow {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+    }
+    // hide top horizontal menu drop-down arrow
+    &.navbar-without-dd-arrow {
+        .nav-link {
+            &.dropdown-toggle::after {
+                display: none;
+            }
+        }
+    }
+    &.navbar-light {
+        background: $navbar-light-bg;
+        &.navbar-horizontal {
+            background: $navbar-light-bg;
+        }
+        .navbar-nav {
+            li {
+                line-height: 1;
+            }
+            .active {
+                &.nav-link {
+                    background-color: rgba(0, 0, 0, 0.03);
+                }
+            }
+            .disabled {
+                &.nav-link {
+                    color: $nav-disabled-link-color;
+                }
+            }
+        }
+    }
+    &.navbar-dark {
+        background: $navbar-dark-bg;
+        &.navbar-horizontal {
+            background: $navbar-dark-bg;
+        }
+        @extend %extend_hamburger_color;
+        .nav-search {
+            .form-control,
+            .btn-secondary {
+                color: $navbar-light-bg;
+                background: $navbar-dark-bg;
+            }
+        }
+        .navbar-nav {
+            li {
+                line-height: 1;
+            }
+            .active {
+                &.nav-link {
+                    background-color: rgba(255, 255, 255, 0.05);
+                }
+            }
+            .disabled {
+                &.nav-link {
+                    color: $gray-lighter;
+                }
+            }
+        }
+    }
+    &.navbar-semi-dark {
+        .navbar-header {
+            background: $navbar-dark-bg;
+        }
+        background:$navbar-light-bg;
+        .navbar-nav {
+            li {
+                line-height: 1;
+            }
+            .nav-link {
+                color: $gray;
+            }
+            .active {
+                &.nav-link {
+                    background-color: rgba(0, 0, 0, 0.03);
+                }
+            }
+            .disabled {
+                &.nav-link {
+                    color: $nav-disabled-link-color;
+                }
+            }
+        }
+    }
+    //center align brand option for horizontal layouts
+    &.navbar-brand-center {
+        .navbar-header {
+            width: 130px;
+            position: absolute;
+            left: 50%;
+            padding: 0;
+            margin: 0;
+            transform: translate(-50%, 0);
+        }
+    }
+    .navbar-header {
+        height: 100%;
+        width: $navbar-header-width;
+        height: $navbar-height;
+        float: left;
+        position: relative;
+        padding: 0rem 1rem;
+        transition: 300ms ease all;
+        .navbar-brand {
+            padding: 15px 6px;
+        }
+    }
+    .navbar-container {
+        padding: 0rem 1rem;
+        height: $navbar-height;
+        transition: 300ms ease all;
+        background: inherit;
+        ul.nav {
+            li {
+                > a.nav-link {
+                    padding: 1.5rem 0.6rem;
+                    i.flag-icon {
+                        margin-right: 0.5rem;
+                    }
+                }
+                a.dropdown-user-link {
+                    padding: 0.9rem 0.6rem;
+                    .user-name {
+                        display: inline-block;
+                        margin-bottom: 0.4rem;
+                        margin-left: 0.2rem;
+                    }
+                }
+                a.menu-toggle {
+                    padding: 1.1rem 0.8rem 1rem 1rem;
+                    i {
+                        font-size: 1.7rem;
+                    }
+                }
+                a.nav-link-label {
+                    padding: 1.4rem 0rem 1rem 0.8rem;
+                }
+                a.dropdown-user-link {
+                    .avatar {
+                        margin-right: 0.5rem;
+                    }
+                }
+                a.nav-link-search,
+                a.nav-link-expand {
+                    padding: 1.4rem 1rem 1.3rem 1rem;
+                }
+                a.upgrade-to-pro{
+                    margin-top: 9px;
+                }
+                div.input-group {
+                    padding: 0.7rem 1rem;
+                }
+                i.ficon {
+                    font-size: 1.2rem;
+                }
+                .list-group {
+                    max-height: 20rem;
+                }
+                .scrollable-container {
+                    position: relative;
+                }
+            }
+        }
+        //Navbar notification css
+        .dropdown-menu-media {
+            width: 24rem;
+            .list-group {
+                .list-group-item {
+                    padding: 1rem;
+                    border: none;
+                    border-top: 1px solid $border-color;
+                    border-bottom: 1px solid $border-color;
+                }
+            }
+            .dropdown-menu-header {
+                border-bottom: 1px solid $border-color;
+            }
+            .dropdown-menu-footer {
+                a {
+                    padding: 0.3rem;
+                    border-top: 1px solid $border-color;
+                }
+            }
+        }
+    }
+    &.navbar-without-menu {
+        .navbar-container {
+            margin-left: 0;
+        }
+    }
+    &.navbar-with-menu {
+        .navbar-container {}
+    }
+    .nav-item + .nav-item {
+        margin-left: 0rem;
+    }
+    /* For sm screen*/
+    @include media-breakpoint-down(sm) {
+        .navbar-header {
+            width: 100% !important;
+            padding: 0.5rem 1rem;
+            .menu-toggle {
+                top: 2px;
+                position: relative;
+            }
+            .open-navbar-container i {
+                font-size: 1.8rem;
+            }
+            .navbar-brand {
+                position: absolute;
+                left: 50%;
+                top:0;
+                transform: translate(-50%, 0);
+            }
+        }
+        &.navbar-with-menu {
+            .navbar-container {
+                width: 100%;
+                display: table;
+                background: #fff;
+                padding: 0rem 1rem;
+                margin: 0;
+                height: auto;
+            }
+        }
+    }
+}
+// For compact menu navbar brand alignment
+.vertical-compact-menu{
+    .header-navbar{
+        .navbar-brand {
+            padding: 15px 0px;
+        }
+    }
+}
+
+// Mega menu
+// ------------------------------
+.mega-dropdown {
+    position: static !important;
+}
+.navigation-main, .navbar-nav{
+    .mega-dropdown-menu {
+        width: calc(100% - 50px);
+        padding: 0.5rem 0;
+        // width: 98%;
+        /* fallback if needed */
+        margin: 0px 25px;
+        box-shadow: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style: none;
+                a {
+                    display: block;
+                    color: $gray-dark;
+                    .children-in {
+                        float: right;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color: $gray;
+                    }
+                    &:focus {
+                        text-decoration: none;
+                        color: $gray;
+                    }
+                }
+            }
+            a.dropdown-item {
+                padding: 10px;
+            }
+        }
+        p.accordion-text {
+            line-height: $line-height-base;
+        }
+        .dropdown-menu-header {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid $border-color;
+        }
+    }
+}
+// TODO: Need to generalize it
+.horizontal-top-icon-menu{
+    .mega-dropdown-menu {
+        margin: 0px 25px !important;
+    }
+}
+
+// Mega menu max width on boxed layout only
+.container {
+    .mega-dropdown-menu {
+        @include mega-menu-container-max-widths();
+    }
+}
+
+@-moz-document url-prefix() { 
+     ul {
+        li {
+            a {
+                .children-in {
+                    position: relative;
+                    right: 3px;
+                    top: -14px;
+                }
+            }
+        }
+    }
+}
+
+// Mega menu list
+// ------------------------------
+.menu-list {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-panel {
+    padding: 0;
+}
+
+.sliding-menu {
+    overflow: hidden;
+    position: relative;
+    ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+        li {
+            list-style: none;
+            margin: 0;
+        }
+    }
+}
+
+// Mega "Hamburger" Icon Animations
+// ------------------------------
+.navbar-menu-icon {
+    width: 24px;
+    margin: 16px 2px !important;
+    position: relative;
+    margin: 0px auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar-menu-icon {
+    span {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: $gray;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+}
+
+.navbar-menu-icon span:nth-child(1) {
+    top: 0px;
+}
+
+.navbar-menu-icon span:nth-child(2) {
+    top: 10px;
+}
+
+.navbar-menu-icon span:nth-child(3) {
+    top: 20px;
+}
+
+.navbar-menu-icon.open span:nth-child(1) {
+    top: 10px;
+    transform: rotate(135deg);
+}
+
+.navbar-menu-icon.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.navbar-menu-icon.open span:nth-child(3) {
+    top: 10px;
+    transform: rotate(-135deg);
+}
+
+// Media queries for device support
+// =========================================
+@include media-breakpoint-down(sm) {
+    .header-navbar {
+        // generic navbar dropdown specific
+        .navbar-nav {
+            .open {
+                position: static;
+            }
+            .open-navbar-container {
+                padding-top: 0.625rem;
+            }
+        }
+        .navbar-container {
+            .open {
+                .dropdown-menu {
+                    right: 0;
+                    left: 0;
+                    float: none;
+                    width: auto;
+                    margin-top: 0;
+                    max-height: 400px;
+                    overflow-x: hidden;
+                    overflow-y: scroll;
+                }
+            }
+            ul.nav {
+                li {
+                    &.nav-item i {
+                        margin-right: 0.2rem;
+                    }
+                    > a.nav-link {
+                        padding: 1.2rem 0.4rem;
+                        i.flag-icon {
+                            margin-right: 0.2rem;
+                        }
+                    }
+                    a.dropdown-user-link {
+                        padding: 0.8rem 0.6rem;
+                    }
+                    a.nav-link-label {
+                        padding: 1.4rem 0rem 1rem 0.8rem
+                    }
+                    a.nav-link-search,
+                    a.nav-link-expand {
+                        padding: 1.4rem 1rem 1rem 1rem
+                    }
+                    .dropdown-toggle::after {
+                        margin-right: 0;
+                        margin-left: -2px;
+                    }
+                }
+            }
+        }
+        // dark navbar
+        &.navbar-dark,
+        &.navbar-semi-dark {
+            .hamburger-inner,
+            .hamburger-inner::before,
+            .hamburger-inner::after {
+                background-color: $navbar-light-bg;
+            }
+            .navbar-header {
+                .navbar-nav {
+                    .nav-link {
+                        color: $navbar-light-bg;
+                    }
+                }
+            }
+            .navbar-container {
+                .navbar-nav {
+                    .nav-link {
+                        color: $gray;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned-top {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned-top {
+    transform: translateY(-100%);
+}
+
+.headroom--pinned-bottom {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned-bottom {
+    transform: translateY(100%);
+}
+
+// iPad support for navbr
+@include media-breakpoint-down(lg) {
+    .header-navbar {
+        .navbar-container {
+            ul.nav {
+                li {
+                    > a.nav-link {
+                        padding: 1.4rem 0.4rem 0.8rem 0.4rem;
+                        i.flag-icon {
+                            margin-right: 0.2rem;
+                        }
+                    }
+                    a.dropdown-user-link {
+                        padding: 0.8rem 0.6rem;
+                    }
+                    a.nav-link-label {
+                        padding: 1.2rem 0rem 1rem 0.8rem;
+                    }
+                    a.nav-link-search,
+                    a.nav-link-expand {
+                        padding: 1.5rem 1rem 1rem 1rem;
+                    }
+                    a.upgrade-to-pro{
+                        margin-top: 9px;
+                    }
+                    .dropdown-toggle::after {
+                        margin-right: 0;
+                        margin-left: -2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// For Medium and down
+@include media-breakpoint-down(lg) {
+    .header-navbar {
+        .navbar-container {
+            ul.nav {
+                li {
+                    .selected-language {
+                        display: none;
+                    }
+                    a.dropdown-user-link {
+                        .user-name {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin extend_mobile_specific($menu_height) {
+    .header-navbar {
+        .navbar-container {
+            .open {
+                .dropdown-menu {
+                    max-height: $menu_height;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    //For responsive mega menu
+    #navbar-mobile.navbar-toggleable-sm {
+        .navbar-nav {
+            margin: 0;
+            .dropdown-menu {
+                position: absolute;
+            }
+            .nav-item {
+                float: left;
+            }
+        }
+    }
+}
+
+
+/* ----------- iPhone 5, 5S  iPhone 6----------- */
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 26.78em) and (max-device-width: 47.64em) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    @include extend_mobile_specific(180px);
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 29.57em) and (max-device-width: 52.57em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    @include extend_mobile_specific(280px);
+}

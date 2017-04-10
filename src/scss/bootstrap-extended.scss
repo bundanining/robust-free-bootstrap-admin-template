@@ -1,0 +1,50 @@
+// ================================================================================================
+// 	File Name: bootstrap-extended.scss
+// 	Description: List of modified Bootstrap files. This is an actual copy of bootstrap.scss
+// 				  excluding files that have not been modified.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Robust - Responsive Admin Theme
+// 	Version: 1.2
+// 	Author: PIXINVENT
+// 	Author URL: http://www.themeforest.net/user/pixinvent
+// ================================================================================================
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap-extended/mixins";
+
+// Load variable overrides
+@import "core/variables/variables";
+@import "core/variables/app-variables";
+
+// Overrides user variable
+@import "../../assets/scss/variables/variables";
+@import "../../assets/scss/variables/app-variables";
+
+// // Core CSS
+@import "bootstrap-extended/reboot";
+@import "bootstrap-extended/type";
+@import "bootstrap-extended/code";
+@import "bootstrap-extended/grid";
+@import "bootstrap-extended/tables";
+@import "bootstrap-extended/forms";
+@import "bootstrap-extended/buttons";
+
+// // Components
+@import "bootstrap-extended/dropdonw";
+@import "bootstrap-extended/navbar";
+@import "bootstrap-extended/card";
+@import "bootstrap-extended/breadcrumb";
+@import "bootstrap-extended/tags";
+@import "bootstrap-extended/nav";
+@import "bootstrap-extended/alert";
+@import "bootstrap-extended/media";
+@import "bootstrap-extended/progress";
+@import "bootstrap-extended/list-group";
+
+// // Components w/ JavaScript
+@import "bootstrap-extended/popover";
+
+// // Utility classes
+@import "bootstrap-extended/utilities";

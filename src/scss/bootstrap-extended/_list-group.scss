@@ -1,0 +1,23 @@
+/* ===============================================================================================
+	File Name: list-group.scss
+	Description: Contain list item, list group related extended SCSS.
+	----------------------------------------------------------------------------------------------
+	Item Name: Robust - Responsive Admin Theme
+	Version: 1.2
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================================*/
+
+// Inline list style with pipeline seperator
+
+ul.list-inline{
+	li{
+		display: inline-block;
+	}
+	&.list-inline-pipe{
+		>li + li:before{
+			content: ' | ';
+		    color: $gray-light;
+		}
+	}
+}

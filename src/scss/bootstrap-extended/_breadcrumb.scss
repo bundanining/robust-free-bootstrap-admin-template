@@ -1,0 +1,23 @@
+.breadcrumb {
+    font-size:0.9rem;
+    background-color: $transparent;
+    padding: 0 0 $breadcrumb-padding-y $breadcrumb-padding-x;
+    > li {
+        + li::before {
+              padding-right: .6rem;
+              padding-left: .6rem;
+    }
+  }
+}
+/* Custom scss for page headers style */
+.breadcrumbs-right{
+	.breadcrumb {
+		float:right;
+	}
+}
+.breadcrumbs-top{
+	.breadcrumb {
+		margin: 0;
+		padding: 0;
+	}
+}

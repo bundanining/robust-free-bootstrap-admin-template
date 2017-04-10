@@ -1,0 +1,37 @@
+// ================================================================================================
+// 	File Name: search.scss
+// 	Description: Page content search pages page layouts SCSS.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Robust - Responsive Admin Theme
+// 	Version: 1.2
+// 	Author: PIXINVENT
+// 	Author URL: http://www.themeforest.net/user/pixinvent
+// ================================================================================================
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "../core/variables/app-variables";
+
+// Overrides user variable
+@import "../../../assets/scss/variables/variables";
+@import "../../../assets/scss/variables/app-variables";
+
+//Search Navbar
+#search-nav{
+    .nav{
+        border-bottom:2px solid #e0e0e0;
+    }
+    .nav-link{
+        &.active{
+            padding-bottom:6px;
+            border-bottom: 2px solid $brand-primary;
+            margin-bottom: -2px;
+        }
+    }
+}
+
+#search-results{
+    .media-search{
+        padding-top:5px;
+    }
+}
