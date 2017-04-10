@@ -25,13 +25,14 @@ Robust admin lite is super flexible, powerful, clean & modern responsive **[Boot
 - File Uploaders
 - Event Calendars
 - 10 Chart Libraries
-
-**Professional Support**
-**Walkthrough Videos**
-**Delightful Documentation**
+- **Incredible Support**
+- **Walkthrough Videos**
+- **Delightful Documentation**
 
 **Premium Template Demo URL**
-Robust Premium Template: **https://pixinvent.com/bootstrap-admin-template/robust/**
+- Robust Premium Template: **https://pixinvent.com/bootstrap-admin-template/robust/**
+
+[![Robust Premium Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_premium.jpg "Robust Premium Presentation")](https://pixinvent.com/bootstrap-admin-template/robust/)
 
 ## Looking For Premium Templates ??
 
