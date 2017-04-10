@@ -2,12 +2,40 @@
 
 Robust admin lite is super flexible, powerful, clean & modern responsive **[Bootstrap 4](https://v4-alpha.getbootstrap.com)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
 
-## More Premium Templates ??
-
-Look no further, **[DMARTIFY](http://dmartify.com/)** is the best market place to buy or sell website templates starting from just $2.
+## Demo URL
+- **[LTR](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)**
+- **[RTL](https://pixinvent.com/free-bootstrap-template/robust-lite/html/rtl/)**
 
 [![Robust Lite Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_lite.jpg "Robust Lite Presentation")](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)
 
+## Upgrade To Premium
+**Premium Features**
+- Jade Template Builder
+- 7 Unique Menu Templates with starter kits
+- 2000+ Ui Components & 2500+ Pages
+- Internationalization & RTL Support
+- 5 Niche Dashboards
+- Multiple Navbar & Menu Options
+- Header & Footer Customizations
+- DataTables, Handson Tables & JSGrid
+- Code Editors
+- Date & Time Pickers
+- jQuery UI Elements
+- Drag & Drop Cards
+- File Uploaders
+- Event Calendars
+- 10 Chart Libraries
+
+**Professional Support**
+**Walkthrough Videos**
+**Delightful Documentation**
+
+**Premium Template Demo URL**
+Robust Premium Template: **https://pixinvent.com/bootstrap-admin-template/robust/**
+
+## Looking For Premium Templates ??
+
+Look no further, **[DMARTIFY](http://dmartify.com/)** is the best market place to buy or sell website templates starting from just $2.
 If you are looking for more templates like robust lite, please visit **[PIXINVENT](https://pixivnent.com/)**.
 
 ## Prerequisites
