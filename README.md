@@ -1,51 +1,70 @@
 # Robust Free Bootstrap Admin Template
+---
+Robust admin lite is super flexible, powerful, clean & modern responsive **[free bootstrap admin template](https://v4-alpha.getbootstrap.com)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
 
-Robust admin lite is super flexible, powerful, clean & modern responsive **[Bootstrap 4](https://v4-alpha.getbootstrap.com)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
-
-## Demo URL
-- **[LTR](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)**
-- **[RTL](https://pixinvent.com/free-bootstrap-template/robust-lite/html/rtl/)**
+## Demo
+---
+| Text direction        | URL   |
+| ------------- |:-------------:|
+| LTR      | https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/ |
+| RTL      | https://pixinvent.com/free-bootstrap-template/robust-lite/html/rtl/ |
 
 [![Robust Lite Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_lite.jpg "Robust Lite Presentation")](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)
+## Table of contents
+---
+- [Prerequisites](https://github.com/pixinvent/robust-free-bootstrap-admin-template#prerequisites)
+- [Installation](https://github.com/pixinvent/robust-free-bootstrap-admin-template#installation)
+- [What's included](https://github.com/pixinvent/robust-free-bootstrap-admin-template#whats-included)
+- [Documentation](https://github.com/pixinvent/robust-free-bootstrap-admin-template#documentation)
+- [Browser Support](https://github.com/pixinvent/robust-free-bootstrap-admin-template#browser-support)
+- [Contributing](https://github.com/pixinvent/robust-free-bootstrap-admin-template#contributing)
+- [Creators](https://github.com/pixinvent/robust-free-bootstrap-admin-template#creators)
+- [Change log](https://github.com/pixinvent/robust-free-bootstrap-admin-template#change-log)
+- [Credits](https://github.com/pixinvent/robust-free-bootstrap-admin-template#credits)
+- [Copyright and license](https://github.com/pixinvent/robust-free-bootstrap-admin-template#copyright-and-license)
 
-## Upgrade To Premium
-**Premium Features**
-- Jade Template Builder
-- 7 Unique Menu Templates with starter kits
-- 2000+ Ui Components & 2500+ Pages
-- Internationalization & RTL Support
-- 5 Niche Dashboards
-- Multiple Navbar & Menu Options
-- Header & Footer Customizations
-- DataTables, Handson Tables & JSGrid
-- Code Editors
-- Date & Time Pickers
-- jQuery UI Elements
-- Drag & Drop Cards
-- File Uploaders
-- Event Calendars
-- 10 Chart Libraries
-- **Incredible Support**
-- **Walkthrough Videos**
-- **Delightful Documentation**
-
-**Premium Template Demo URL**
-- Robust Premium Template: **https://pixinvent.com/bootstrap-admin-template/robust/**
-
+## Looking for more features ? Upgrade To Premium
+---
 [![Robust Premium Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_premium.jpg "Robust Premium Presentation")](https://pixinvent.com/bootstrap-admin-template/robust/)
 
-## Looking For Premium Templates ??
+|Robust Lite Features|Robust Pro Features|
+|--- | --- |
+|[DEMO](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/) | [DEMO](https://pixinvent.com/bootstrap-admin-template/robust/) |
+|[Download](https://pixinvent.com/bootstrap-admin-template/robust/) | [Purchase](https://themeforest.net/item/robust-responsive-bootstrap-4-admin-template-build-system/19297560?ref=pixinvent&license=regular&open_purchase_for_item_id=19297560&purchasable=source) |
+|Single Menu Template|7 Unique Menu Templates with starter kits|
+|-|**Jade Template Builder**|
+||Built in starter-kits for all layouts|
+|100+ UI Components & 90+ Pages |2000+ UI Components & 2500+ Pages|
+|RTL Support |Internationalization & RTL Support|
+|2 Simple Dashboards| 5 Niche Dashboards|
+|24 Color Schemes|24 Color Schemes|
+|-|Multiple Navbar & Menu Options|
+|-| Header & Footer Customizations|
+|Bootstrap tables| Bootstrap, DataTables, Handson Tables & JSGrid|
+|-|Code Editors|
+|-| Date & Time Pickers|
+|-| jQuery UI Elements|
+|Bootstrap Card| Bootstrap Card & Advance Card UI Cards|
+|-| File Uploaders|
+|-| Event Calendars|
+|-| 10 Chart Libraries|
+|-|7 Built-in web applications|
+|Regular Support| **Incredible Support**|
+|-| **Walkthrough Videos**|
+|-| **Delightful Documentation**|
 
+## Looking For Premium Templates ??
+---
 Look no further, **[DMARTIFY](http://dmartify.com/)** is the best market place to buy or sell website templates starting from just $2.
 If you are looking for more templates like robust lite, please visit **[PIXINVENT](https://pixivnent.com/)**.
 
 ## Prerequisites
-
+---
 Node JS must be installed on your system to run grunt / gulp template generation and dist commands.
 You can download and install nodejs from this URL: https://nodejs.org/en/
 
 ## Installation
-
+---
 **1. Download:**
 Download from Github or visit **[Pixinvent Creative Studio](https://pixivnent.com/)** and download the latest release.
 
@@ -65,14 +84,14 @@ npm install
 ```
 
 **Running Grunt Dist Commands**
+Task | Command | Description
+--- | --- | ---
+Dist|`grunt dist`|To clean css, js and build distributable css and js files
+Clean|`grunt dist-clean`|To clean css, js files
+Build JS | `grunt dist-js` |To clean js files and build distributable js files
+Compile SCSS|`grunt sass-compile`|Compile scss files
+Build CSS|`grunt dist-css`|To clean css files and build distributable css files
 
-```
-grunt dist [To clean css, js and build distributable css and js files]
-grunt dist-clean [To clean css, js files]
-grunt dist-js [To clean js files and build distributable js files]
-grunt sass-compile [Compile scss files]
-grunt dist-css [To clean css files and build distributable css files]
-```
 
 ### Gulp
 - IF you are using gulp, copy and paste package.gulp.json file in the root folder and rename it to package.json.
@@ -84,21 +103,55 @@ npm install
 
 **Running Gulp Dist Commands**
 
-```
-gulp dist [To clean css, js and build distributable css and js files]
-gulp dist-clean [To clean css, js files]
-gulp dist-js [To clean js files and build distributable js files]
-gulp sass-compile [Compile scss files]
-gulp dist-css [To clean css files and build distributable css files]
-```
+Task | Command | Description
+--- | --- | ---
+Dist|`gulp dist`|To clean css, js and build distributable css and js files
+Clean | `gulp dist-clean`|To clean css, js files
+Build JS | `gulp dist-js` |To clean js files and build distributable js files
+Compile SCSS | `gulp sass-compile` | Compile scss files
+Build CSS | `gulp dist-css` |To clean css files and build distributable css files
 
+## What's included
+---
+Below is the Robust Admin Lite folder structure. Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+```
+robust-admin-lite
+├── app-assets
+|   ├── css
+|   ├── css-rtl
+|   ├── data
+|   ├── fonts
+|   ├── images
+|   ├── js
+|   ├── vendors
+|   |   ├── css
+|   |   ├── js
+├── assets
+|   ├── css
+|   ├── js
+|   └── scss
+├── grunt-tasks
+├── gulp-tasks
+├── html
+|   ├── ltr
+|   └── rtl
+├── src
+|   ├── js
+|   ├── scss
+├── Gruntfile.js (grunt tasks)
+├── gulpfile.js (gulp tasks)
+├── README.md
+├── CHANGELOG.md
+├── package.gulp.json (gulp package json)
+└── package.json (grunt package json)
+```
 
 ## Documentation
-
+---
 Visit the online [documentation](https://pixinvent.com/free-bootstrap-template/robust-lite/documentation/)  for the most updated guide.
 
 ## Browser Support
-
+---
 Robust admin lite is built to work best in the latest desktop and mobile and tablet browsers,
 
 - Chrome (latest)
@@ -109,7 +162,7 @@ Robust admin lite is built to work best in the latest desktop and mobile and tab
 
 
 ## Contributing
-
+---
 Contribution are always welcome and recommended! Here is how:
 
 
@@ -125,26 +178,27 @@ Contribution are always welcome and recommended! Here is how:
 - Contributions are only accepted through Github pull requests.
 - Finally, contributed code must work in all supported browsers (see above for browser support).
 
-## Authors
-
+## Creators
+---
 * **Pixinvent Creative Studio** - *Initial work* - [Pixinvent Creative Studio](https://pixinvent.com)
 
-License
--------
+## Change log
+---
+**For the most recent change log, visit the [releases page](https://github.com/pixinvent/robust-free-bootstrap-admin-template/releases) or the [changelog file](https://github.com/pixinvent/robust-free-bootstrap-admin-template/blob/master/changelog.md).** 
+We will add a detailed release notes to each new release.
+
+## Credits
+----
+* [Graphicburger](http://graphicburger.com/)
+
+* [Stocksnap](https://stocksnap.io/)
+
+* [Pixabay](https://pixabay.com/)
+
+* [Unsplash](https://unsplash.com/)
+
+* [Picjumbo](https://picjumbo.com/)
+
+## Copyright and license
+---
 Robust Lite is an open source project by [Pixinvent Creative Studio](https://pixinvent.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Pixinvent Creative Studio reserves the right to change the license of future releases.
-
-Change log
-----------
-**For the most recent change log, visit the [releases page](https://github.com/pixinvent/robust-free-bootstrap-admin-template/releases) or the [changelog file](https://github.com/pixinvent/robust-free-bootstrap-admin-template/blob/master/changelog.md).** We will add a detailed release notes to each new release.
-
-Image Credits
--------------
-[Graphicburger](http://graphicburger.com/)
-
-[Stocksnap](https://stocksnap.io/)
-
-[Pixabay](https://pixabay.com/)
-
-[Unsplash](https://unsplash.com/)
-
-[Picjumbo](https://picjumbo.com/)
