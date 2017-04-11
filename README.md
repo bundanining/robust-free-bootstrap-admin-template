@@ -1,9 +1,9 @@
 # Robust Free Bootstrap Admin Template
----
+
 Robust admin lite is super flexible, powerful, clean & modern responsive **[free bootstrap admin template](https://v4-alpha.getbootstrap.com)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
 
 ## Demo
----
+
 | Text direction        | URL   |
 | ------------- |:-------------:|
 | LTR      | https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/ |
@@ -11,20 +11,20 @@ Robust admin lite is super flexible, powerful, clean & modern responsive **[free
 
 [![Robust Lite Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_lite.jpg "Robust Lite Presentation")](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)
 ## Table of contents
----
-- [Prerequisites](https://github.com/pixinvent/robust-free-bootstrap-admin-template#prerequisites)
-- [Installation](https://github.com/pixinvent/robust-free-bootstrap-admin-template#installation)
-- [What's included](https://github.com/pixinvent/robust-free-bootstrap-admin-template#whats-included)
-- [Documentation](https://github.com/pixinvent/robust-free-bootstrap-admin-template#documentation)
-- [Browser Support](https://github.com/pixinvent/robust-free-bootstrap-admin-template#browser-support)
-- [Contributing](https://github.com/pixinvent/robust-free-bootstrap-admin-template#contributing)
-- [Creators](https://github.com/pixinvent/robust-free-bootstrap-admin-template#creators)
-- [Change log](https://github.com/pixinvent/robust-free-bootstrap-admin-template#change-log)
-- [Credits](https://github.com/pixinvent/robust-free-bootstrap-admin-template#credits)
-- [Copyright and license](https://github.com/pixinvent/robust-free-bootstrap-admin-template#copyright-and-license)
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [What's included](#whats-included)
+- [Documentation](#documentation)
+- [Browser Support](#browser-support)
+- [Contributing](#contributing)
+- [Creators](#creators)
+- [Change log](#change-log)
+- [Credits](#credits)
+- [Copyright and license](#copyright-and-license)
 
 ## Looking for more features ? Upgrade To Premium
----
+
 [![Robust Premium Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_premium.jpg "Robust Premium Presentation")](https://pixinvent.com/bootstrap-admin-template/robust/)
 
 |Robust Lite Features|Robust Pro Features|
@@ -54,17 +54,17 @@ Robust admin lite is super flexible, powerful, clean & modern responsive **[free
 |-| **Delightful Documentation**|
 
 ## Looking For Premium Templates ??
----
+
 Look no further, **[DMARTIFY](http://dmartify.com/)** is the best market place to buy or sell website templates starting from just $2.
 If you are looking for more templates like robust lite, please visit **[PIXINVENT](https://pixivnent.com/)**.
 
 ## Prerequisites
----
+
 Node JS must be installed on your system to run grunt / gulp template generation and dist commands.
 You can download and install nodejs from this URL: https://nodejs.org/en/
 
 ## Installation
----
+
 **1. Download:**
 Download from Github or visit **[Pixinvent Creative Studio](https://pixivnent.com/)** and download the latest release.
 
@@ -112,7 +112,7 @@ Compile SCSS | `gulp sass-compile` | Compile scss files
 Build CSS | `gulp dist-css` |To clean css files and build distributable css files
 
 ## What's included
----
+
 Below is the Robust Admin Lite folder structure. Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 ```
 robust-admin-lite
@@ -147,11 +147,11 @@ robust-admin-lite
 ```
 
 ## Documentation
----
+
 Visit the online [documentation](https://pixinvent.com/free-bootstrap-template/robust-lite/documentation/)  for the most updated guide.
 
 ## Browser Support
----
+
 Robust admin lite is built to work best in the latest desktop and mobile and tablet browsers,
 
 - Chrome (latest)
@@ -162,7 +162,7 @@ Robust admin lite is built to work best in the latest desktop and mobile and tab
 
 
 ## Contributing
----
+
 Contribution are always welcome and recommended! Here is how:
 
 
@@ -179,16 +179,16 @@ Contribution are always welcome and recommended! Here is how:
 - Finally, contributed code must work in all supported browsers (see above for browser support).
 
 ## Creators
----
+
 * **Pixinvent Creative Studio** - *Initial work* - [Pixinvent Creative Studio](https://pixinvent.com)
 
 ## Change log
----
+
 **For the most recent change log, visit the [releases page](https://github.com/pixinvent/robust-free-bootstrap-admin-template/releases) or the [changelog file](https://github.com/pixinvent/robust-free-bootstrap-admin-template/blob/master/changelog.md).** 
 We will add a detailed release notes to each new release.
 
 ## Credits
-----
+
 * [Graphicburger](http://graphicburger.com/)
 
 * [Stocksnap](https://stocksnap.io/)
@@ -200,5 +200,5 @@ We will add a detailed release notes to each new release.
 * [Picjumbo](https://picjumbo.com/)
 
 ## Copyright and license
----
+
 Robust Lite is an open source project by [Pixinvent Creative Studio](https://pixinvent.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Pixinvent Creative Studio reserves the right to change the license of future releases.
