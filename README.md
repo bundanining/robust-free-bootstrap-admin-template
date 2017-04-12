@@ -84,6 +84,7 @@ npm install
 ```
 
 **Running Grunt Dist Commands**
+
 Task | Command | Description
 --- | --- | ---
 Dist|`grunt dist`|To clean css, js and build distributable css and js files
