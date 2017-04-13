@@ -1,0 +1,34 @@
+{
+  "name": "robust-free-bootstrap-admin-template",
+  "description": "Robust admin is super flexible, powerful, clean & modern responsive bootstrap 4 admin template with unlimited possibilities.",
+  "homepage": "http://pixinvent.com/",
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "admin-ui",
+    "dashboard",
+    "admin-dashboard",
+    "bootstrap-theme",
+    "admin-theme",
+    "admin-panel",
+    "css",
+    "js",
+    "sass",
+    "responsive",
+    "back-end",
+    "template",
+    "theme",
+    "web",
+    "admin"
+  ],
+  "authors": [
+    {
+      "name": "PIXINVENT CREATIVE STUDIO",
+      "email": "admin@pixinvent.com"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/pixinvent/robust-free-bootstrap-admin-template/issues"
+  }
+}
