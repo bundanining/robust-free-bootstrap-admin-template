@@ -1,6 +1,6 @@
 # Robust Free Bootstrap Admin Template
 
-Robust admin lite is super flexible, powerful, clean & modern responsive **[free bootstrap admin template](https://v4-alpha.getbootstrap.com)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
+Robust admin lite is super flexible, powerful, clean & modern responsive **[free bootstrap admin template](http://pixinvent.com/)** admin template with unlimited possibilities. Robust admin lite can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels. It comes with 2 niche dashboards. Robust admin lite is powered with HTML 5, SASS, GRUNT, Gulp & Twitter Bootstrap 4 which looks great on Desktops, Tablets, and Mobile Devices.
 
 ## Demo
 
@@ -9,7 +9,7 @@ Robust admin lite is super flexible, powerful, clean & modern responsive **[free
 | LTR      | https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/ |
 | RTL      | https://pixinvent.com/free-bootstrap-template/robust-lite/html/rtl/ |
 
-[![Robust Lite Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_lite.jpg "Robust Lite Presentation")](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)
+[![Robust Lite Presentation](https://pixinvent.com/free-bootstrap-template/robust-lite/robust_lite.jpg "Robust Free Bootstrap Admin Template Presentation")](https://pixinvent.com/free-bootstrap-template/robust-lite/html/ltr/)
 ## Table of contents
 
 - [Prerequisites](#prerequisites)
@@ -153,7 +153,7 @@ Visit the online [documentation](https://pixinvent.com/free-bootstrap-template/r
 
 ## Browser Support
 
-Robust admin lite is built to work best in the latest desktop and mobile and tablet browsers,
+Robust [Free Bootstrap Admin Template](https://pixinvent.com/) is built to work best in the latest desktop and mobile and tablet browsers,
 
 - Chrome (latest)
 - FireFox (latest)
@@ -202,4 +202,4 @@ We will add a detailed release notes to each new release.
 
 ## Copyright and license
 
-Robust Lite is an open source project by [Pixinvent Creative Studio](https://pixinvent.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Pixinvent Creative Studio reserves the right to change the license of future releases.
+Robust Free Bootstrap Admin Template is an open source project by [Pixinvent Creative Studio](https://pixinvent.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Pixinvent Creative Studio reserves the right to change the license of future releases.
